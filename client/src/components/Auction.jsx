@@ -203,7 +203,7 @@ class Auction extends Component {
     }
   }
 }
-
+//connect to the store to get the artwork to render:
 const mapStateToProps = (state) => {
   return {
     auction: state.auction,

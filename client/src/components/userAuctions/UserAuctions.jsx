@@ -97,7 +97,7 @@ class UserAuctions extends Component {
                 header="You're not Bidding on any art"
                 content="You dream piece is waiting for you. Click below to find it."
               />
-              <Button color="green" onClick={() => this.goToAuctions()}>Go to Auctions</Button>
+              <Button onClick={() => this.goToAuctions()}>Go to Auctions</Button>
             </Container>}
           </Grid.Row>
         </Grid>
@@ -113,10 +113,10 @@ class UserAuctions extends Component {
             ) :
             <Container>
               <Message
-                header="You have not won any auctions... Yet"
+                header="You have won any auctions... Yet"
                 content="You dream piece is waiting for you. Click below to find it."
               />
-              <Button color="green" onClick={() => this.goToAuctions()}>Go To Auctions</Button>
+              <Button onClick={() => this.goToAuctions()}>Go To Auctions</Button>
             </Container>}
           </Grid.Row>
         </Grid>

@@ -10,8 +10,8 @@ class ContactUs extends Component {
         <Grid stackable>
           <Grid.Row columns={2}>
             <Grid.Column>
-              <div className="teamphoto"
-                style={{backgroundImage: `url(${"assets/turtles.jpg"})`}}
+              <Image
+                src="assets/turtles.jpg"
               />
             </Grid.Column>
             <Grid.Column>
